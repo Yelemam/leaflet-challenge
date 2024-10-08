@@ -1,0 +1,41 @@
+/* Ensure that the body, html, and map take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the map to occupy the full page */
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Optional styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    padding: 10px;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Add some space around the layer control */
+.leaflet-control-layers {
+    margin-top: 50px;
+}
+
+/* Ensures that the layer control doesn't overlap with the header */
+.leaflet-top.leaflet-left {
+    margin-top: 50px;
+}
