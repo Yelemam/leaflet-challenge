@@ -1,5 +1,6 @@
 # leaflet-challenge
 
+![1-Logo](https://github.com/user-attachments/assets/b037ceec-ee2b-45d1-bf80-50b45204b375)
 
 # Table of Contents
 
@@ -31,7 +32,7 @@ funding for related projects.
     •    A map legend to explain earthquake depth by color.
     •    Optional: Plot tectonic plate boundaries and compare them with seismic activity.
 
-#Setup
+# Setup
 
     1.    Clone the repository:
     2.    Install the required dependencies:
@@ -61,6 +62,9 @@ USGS provides real-time earthquake data in GeoJSON format. The dataset can be re
     • Legend: A color legend explaining depth levels.
     • Tooltips: Popups that show magnitude, location, and depth for each earthquake marker.
 
+<img width="1434" alt="StreetMap-Earthquake-Tectonic" src="https://github.com/user-attachments/assets/0900d961-4a78-40cd-ab1c-dd07c3642e2f">
+
+
 # Usage
 
     •    Open the index.html file in a browser to view the visualization.
@@ -74,6 +78,7 @@ This section builds upon the earthquake visualization by adding the ability to v
 users can better understand the relationship between seismic activity and tectonic plates.
 In this optional part, you can enhance the map by adding tectonic plate data.
 
+<img width="1433" alt="Topographic-EarthQuakes-Tectonics" src="https://github.com/user-attachments/assets/ec3eff20-2c70-4b14-97f8-d08a78e94909">
 
 # Dataset
 
@@ -91,6 +96,9 @@ tectonic plates, which are an essential factor in understanding seismic activity
       on the visualization.
     • Real-Time Data: Earthquake data continues to be pulled in real-time from the USGS, meaning that users can see current earthquake activity overlaid
       with tectonic boundaries.
+
+<img width="1432" alt="Topographic_map" src="https://github.com/user-attachments/assets/fc38d36f-bcd3-444f-ad68-462e3576e7d7">
+
 
 # Visualization Steps
 
@@ -112,7 +120,7 @@ tectonic plates, which are an essential factor in understanding seismic activity
     3.    Interact with the map by clicking on earthquake markers to view detailed information about each event.
     4.    Switch between the Street Map and Topographic Map views using the control layer to enhance your perspective of the visualization.
 
-#Acknowledgements
+# Acknowledgements
 
     •    USGS for providing the earthquake data: USGS GeoJSON Feed
     •    Tectonic plate data provided by GitHub - fraxen/tectonicplates
